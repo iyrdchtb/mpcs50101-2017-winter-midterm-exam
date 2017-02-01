@@ -3,7 +3,13 @@
 # believe it is a waste of time (and brain power) to learn the definitions.
 #
 # Given a list of all the 3 letter Scrabble words (3letter_words.txt) you will
-# write a program to sort the list by the highest scoring words.
+# write a program to sort the list by the highest scoring words.  The file is
+# in the following format, where the 3 letter word is following by a space and
+# then the definition:
+#
+#  AAH	to exclaim in delight
+#  AAL	East Indian shrub
+#  AAS	[aa] (rough, cindery lava)
 #
 # You should create a module named `words` that will handle all the functions
 # related to reading, scoring and sorting the list.
@@ -11,7 +17,8 @@
 # When you run the program, it should import the words module to read in the 3
 # letter word list, compute the score for each word, and sort the words by
 # descending score (i.e. highest scoring words to lowest scoring words).  Print
-# the words out in sorted order to a file named 3letter_words_sorted.txt.
+# the words out in sorted order to a file named 3letter_words_sorted.txt.  You
+# do not need to print out the definitions.
 #
 
 

@@ -179,7 +179,7 @@ DAW	to dawn
 DAY	24 hours
 DEB	debutante
 DEE	letter 'd'
-DEF  excellent {OSPD4}
+DEF excellent {OSPD4}
 DEL	differential calculus operator
 DEN	to live in a lair
 DEV	Hindu god (deva)
@@ -224,8 +224,8 @@ EAU	water
 EBB	to recede
 ECU	old French coin
 EDH	Old English letter
-EDS  [ed] (education) {OSPD4}
-EEK  intj. expressing fright {OSPD4}
+EDS [ed] (education) {OSPD4}
+EEK intj. expressing fright {OSPD4}
 EEL	snakelike fish
 EFF	letter 'f' (ef)
 EFS	[ef] (letter 'f')
@@ -997,17 +997,17 @@ YUM	intj. expressing tasteful pleasure
 YUP	yep
 ZAG	to turn sharply
 ZAP	to kill or destroy
-ZAS  [za] (pizza) {OSPD4}
+ZAS [za] (pizza) {OSPD4}
 ZAX	tool for cutting roof slates
 ZED	letter 'z'
 ZEE	letter 'z'
 ZEK	inmate in a Soviet labor camp
-ZEP  long sandwich {OSPD4}
+ZEP long sandwich {OSPD4}
 ZIG	to turn sharply
 ZIN	zinfandel {OSPD3}
 ZIP	to move rapidly
 ZIT	pimple
 ZOA	[zoon-pl] (whole product of a fertilized egg)
 ZOO	place where animals are kept for public exhibition
-ZUZ  ancient Hebrew silver coin {OSPD4}
-ZZZ  intj. representing the sound of snoring {OSPD4}
+ZUZ ancient Hebrew silver coin {OSPD4}
+ZZZ intj. representing the sound of snoring {OSPD4}
