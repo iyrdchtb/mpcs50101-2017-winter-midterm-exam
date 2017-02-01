@@ -1,24 +1,15 @@
-# Problem 5.  What does each condition evaluate to?
-
-# Shorten this
-
-a) True and True
-b) False and True
-c) 1 == 1 and 2 == 1
-d) "test" == "test"
-e) 1 == 1 or 2 != 1
-f) True and 1 == 1
-g) False and 0 != 0
-h) True or 1 == 1
-i) "test" == "testing"
-j) 1 != 0 and 2 == 1
-k) "test" != "testing"
-l) "test" == 1
-m) not (True and False)
-n) not (1 == 1 and 0 != 1)
-o) not (10 == 1 or 1000 == 1000)
-p) not (1 != 10 or 3 == 4)
-q) not ("testing" == "testing" and "Zed" == "Cool Guy")
-r) 1 == 1 and (not ("testing" == 1 or 1 == 0))
-s) "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
-t) 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+# Problem 3:  How many ping pong balls can fit inside a Boeing 747 airplane?
+#
+# Use the following information to answer the question:
+#   - The radius of a ping pong ball is .02 meters
+#   - The volume of an Boeing 747 airplane is 1035 cubic meters
+#   - The formula for the volume of a sphere is (4/3) * pi * radius^3
+#
+# In your solution, define and write a function named `volume_of_sphere` that
+# takes a single parameter named `radius` returns the volume.
+#
+# Write the remainder of the program that calls the function.  Print your final
+# answer out.
+#
+# If you have time, please let us know where you see yourself in 5 years :)
+#

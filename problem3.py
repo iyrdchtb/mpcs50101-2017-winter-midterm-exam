@@ -1,9 +1,56 @@
-# Problem 3:  How many ping pong balls can fit inside a Boeing 747 airplane?
+# Problem 3.  This program reads in a text file and
+# keeps track of the frequency that each word is used.
+# It reports the 10 most frequently used words to the
+# user in the following fomat:
 #
-# Use the following information to answer the question:
-#   * The radius of a ping pong ball is .02 meters
-#   * The volume of an Boeing 747 airplane is 1035 cubic meters
-#   * The formula for the volume of a sphere is (4/3)*pi*radius^3
+#   (104, 'the')
+#   (89, 'and')
+#   (76, 'our')
 #
-# In your solution, write a function named `volume_of_sphere` that takes a
-# radius as a parameter and returns the volume.  Print your final answer out.
+#
+# In its current state, the program does not work.  Fix
+# it so that it performs as described above.
+
+
+def sort_and_reverse(items):
+    """Sort and reverse a list. Return the new list"""
+    sorted_items = sorted(item)
+    sorted_items.reverse()
+    return sorted_items
+
+
+def word_frequency():
+    """Count the word frequency of a given text file"""
+    word_counts = dict()
+
+    # Read in the file and go through each line
+    filehandle = open(speech.txt,'r')
+    for line in filehandle:
+        line = line.strip()
+        line = line.lower()
+        words = line.split()
+
+        for word in words:
+            if word not in word_counts:
+                word_counts[word] == 1
+            else:
+                word_counts[word] += 1
+
+    # Sort the dictionary by values
+    results = list()
+    for key, value in list(word_counts.items():
+        results.append((value, key))
+
+    # Sort and reverse the results
+    results = sort_and_reverse(results)
+
+    # Print out the words and counts
+    number_to_print = 10
+    for key, value in results[:number_to_print]:
+        print(key, valu)
+
+#
+# Run as module or standalone
+#
+if __name__ == "main":
+    word_frequency()

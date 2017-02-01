@@ -1,56 +1,28 @@
-# Problem 2.  This program reads in a text file and
-# keeps track of the frequency that each word is used.
-# It reports the 10 most frequently used words to the
-# user in the following fomat:
+# Problem 2.  What does each of the following condition statements evaluate to?
 #
-#   (104, 'the')
-#   (89, 'and')
-#   (76, 'our')
-#
-#
-# In its current state, the program does not work.  Fix
-# it so that it performs as described above.
+# You will have 10 minutes to complete this problem.  You will need to commit
+# this to your repository within the given time.  After you have done your
+# commit, move on to the rest of the exam.  The object of this problem is for
+# you to understand what the code does without actually running it (ie. do not
+# actually run this).
 
-
-def sort_and_reverse(items):
-    """Sort and reverse a list. Return the new list"""
-    sorted_items = sorted(item)
-    sorted_items.reverse()
-    return sorted_items
-
-
-def word_frequency():
-    """Count the word frequency of a given text file"""
-    word_counts = dict()
-
-    # Read in the file and go through each line
-    filehandle = open(speech.txt,'r')
-    for line in filehandle:
-        line = line.strip()
-        line = line.lower()
-        words = line.split()
-
-        for word in words:
-            if word not in word_counts:
-                word_counts[word] == 1
-            else:
-                word_counts[word] += 1
-
-    # Sort the dictionary by values
-    results = list()
-    for key, value in list(word_counts.items():
-        results.append((value, key))
-
-    # Sort and reverse the results
-    results = sort_and_reverse(results)
-
-    # Print out the words and counts
-    number_to_print = 10
-    for key, value in results[:number_to_print]:
-        print(key, valu)
-
-#
-# Run as module or standalone
-#
-if __name__ == "main":
-    word_frequency()
+a) True and True
+b) False and True
+c) 1 == 1 and 2 == 1
+d) "test" == "test"
+e) 1 == 1 or 2 != 1
+f) True and 1 == 1
+g) False and 0 != 0
+h) True or 1 == 1
+i) "test" == "testing"
+j) 1 != 0 and 2 == 1
+k) "test" != "testing"
+l) "test" == 1
+m) not (True and False)
+n) not (1 == 1 and 0 != 1)
+o) not (10 == 1 or 1000 == 1000)
+p) not (1 != 10 or 3 == 4)
+q) not ("testing" == "testing" and "Zed" == "Cool Guy")
+r) 1 == 1 and (not ("testing" == 1 or 1 == 0))
+s) "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+t) 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
