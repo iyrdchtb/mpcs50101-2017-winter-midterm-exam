@@ -5,12 +5,3 @@
 # commit, move on to the rest of the exam.  The object of this problem is for
 # you to understand what the code does without actually running it (ie. do not
 # actually run this).
-
-i = 0
-while i < 6:
-    j = 0
-    while j < i:
-        print 10 % 2,
-        j = j + 1
-    i = i + 1
-    print
