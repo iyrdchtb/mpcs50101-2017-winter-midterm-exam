@@ -6,6 +6,7 @@
 # you to understand what the code does without actually running it (ie. do not
 # actually run this).
 
+
 a) True and True
 b) False and True
 c) 1 == 1 and 2 == 1

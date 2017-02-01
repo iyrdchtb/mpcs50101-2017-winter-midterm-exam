@@ -1,4 +1,4 @@
-# Problem 3:  How many ping pong balls can fit inside a Boeing 747 airplane?
+# Problem 5:  How many ping pong balls can fit inside a Boeing 747 airplane?
 #
 # Use the following information to answer the question:
 #   - The radius of a ping pong ball is .02 meters
