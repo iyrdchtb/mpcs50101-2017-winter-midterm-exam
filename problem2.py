@@ -1,16 +1,11 @@
 # Problem 2.  What does each of the following condition statements evaluate to?
-#
 # You will have 10 minutes to complete this problem.  You will need to commit
 # this to your repository within the given time.  After you have done your
-# commit, move on to the rest of the exam.  The object of this problem is for
-# you to understand what the code does without actually running it (ie. do not
-# actually run this).
-
-
+# commit, move on to the rest of the exam.
 a) True and True
 b) False and True
 c) 1 == 1 and 2 == 1
-d) "chicago" == "chicago"
+d) "chicago" == 'chicago'
 e) 1 == 1 or 2 != 1
 f) True and 1 == 1
 g) False and 0 != 0
