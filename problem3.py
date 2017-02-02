@@ -54,3 +54,46 @@ def word_frequency():
 #
 if __name__ == "main":
     word_frequency()
+                           
+                           def sort_and_reverse(items):
+    """Sort and reverse a list. Return the new list"""
+    sorted_items = sorted(item)
+    sorted_items.reverse()
+    return sorted_items
+
+
+def word_frequency():
+    """Count the word frequency of a given text file"""
+    word_counts = {}
+
+    # Read in the file and go through each line
+    filehandle = open(speech.txt,'r')
+    for line in filehandle:
+        line = line.strip()
+        line = line.lower()
+        words = line.split()
+
+        for word in words:
+            if word not in word_counts:
+                word_counts[word] == 1
+            else:
+                word_counts[word] += 1
+    # Sort the dictionary by values
+    results = {}
+    for key, value in word_counts(word_counts.items()):
+        results.append((key, value))
+        print word_counts[word]
+    # Sort and reverse the results
+    results = sort_and_reverse(results)
+
+    # Print out the words and counts
+    number_to_print = 10
+    for key, value in results[:number_to_print]:
+        print(key, value)
+
+#
+# Run as module or standalone
+#
+if __name__ == "main":
+    word_frequency()
+
