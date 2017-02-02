@@ -21,3 +21,17 @@
 #   Enter a dollar amount? 100.00
 #   Amount: $100.00 Tip: $20.00 Total: $120.00
 #
+
+def tip_calculator(amount):
+    tip = amount*0.2
+    total = tip + amount
+    print "Amount: $%.2f Tip: $%.2f Total: $%.2f" %(amount, tip, total)
+
+
+amount_str = raw_input("Enter a dollar amount? ")
+try:
+    amount = float(amount_str)
+    tip_calculator(amount)
+
+except:
+    print "I was unable to calculate the tip."
